@@ -13,6 +13,7 @@
 		811DDA6E270D21C20003CE86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811DDA6D270D21C20003CE86 /* Preview Assets.xcassets */; };
 		811DDA77270D275C0003CE86 /* TitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DDA76270D275C0003CE86 /* TitleBarView.swift */; };
 		811DDA79270D27C60003CE86 /* TemperatureAndWindView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DDA78270D27C60003CE86 /* TemperatureAndWindView.swift */; };
+		811DDA7C270D2A7D0003CE86 /* Past24HoursView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DDA7B270D2A7D0003CE86 /* Past24HoursView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		811DDA6D270D21C20003CE86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		811DDA76270D275C0003CE86 /* TitleBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBarView.swift; sourceTree = "<group>"; };
 		811DDA78270D27C60003CE86 /* TemperatureAndWindView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureAndWindView.swift; sourceTree = "<group>"; };
+		811DDA7B270D2A7D0003CE86 /* Past24HoursView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Past24HoursView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				811DDA66270D21C10003CE86 /* StaticWeatherViewApp.swift */,
 				811DDA68270D21C10003CE86 /* ContentView.swift */,
+				811DDA7B270D2A7D0003CE86 /* Past24HoursView.swift */,
 				811DDA78270D27C60003CE86 /* TemperatureAndWindView.swift */,
 				811DDA76270D275C0003CE86 /* TitleBarView.swift */,
 				811DDA6A270D21C20003CE86 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				811DDA69270D21C10003CE86 /* ContentView.swift in Sources */,
 				811DDA79270D27C60003CE86 /* TemperatureAndWindView.swift in Sources */,
 				811DDA77270D275C0003CE86 /* TitleBarView.swift in Sources */,
+				811DDA7C270D2A7D0003CE86 /* Past24HoursView.swift in Sources */,
 				811DDA67270D21C10003CE86 /* StaticWeatherViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

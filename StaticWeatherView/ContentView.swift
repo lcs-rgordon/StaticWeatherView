@@ -26,12 +26,19 @@ struct ContentView: View {
             VStack {
                 
                 TitleBarView()
+                    .padding(.bottom, 50)
+                                
+                VStack(spacing: 50) {
+                    
+                    TemperatureAndWindView()
+                
+                    Past24HoursView()
+                    
+                }
                 
                 Spacer()
                 
-                TemperatureAndWindView()
-                
-                Spacer()
+                    
 
             }
             .foregroundColor(.white)
