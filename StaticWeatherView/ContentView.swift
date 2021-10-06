@@ -52,12 +52,23 @@ struct ContentView: View {
                 }
                 .font(.title2)
                 .padding(.horizontal)
-                .foregroundColor(.white)
+                
+                Spacer()
+                
+                // Temperature and wind
+                VStack {
+                    Text("14 °C")
+                        .font(.largeTitle)
+                    
+                    Text("Wind: NE 6 km/h")
+                        .font(.subheadline)
+                }
                 
                 Spacer()
 
             }
-            
+            .foregroundColor(.white)
+
         }
     }
 }
