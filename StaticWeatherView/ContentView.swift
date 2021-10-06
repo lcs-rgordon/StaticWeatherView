@@ -38,6 +38,11 @@ struct ContentView: View {
                 
                 Spacer()
                 
+                // NOTE: Image must be placed in the Assets folder
+                Image("logo-canada")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxHeight: 40)
                     
 
             }
