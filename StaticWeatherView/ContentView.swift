@@ -9,8 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        // Use layers to show background colour
+        // See page 79 of SwiftUI Views Quick Start
+        ZStack {
+            
+            // For gradient example, see: https://www.hackingwithswift.com/quick-start/swiftui/how-to-render-a-gradient
+            LinearGradient(colors: [.blue, .white],
+                           startPoint: .top,
+                           endPoint: .bottom)
+                .edgesIgnoringSafeArea(.all)
+            
+        }
     }
 }
 
